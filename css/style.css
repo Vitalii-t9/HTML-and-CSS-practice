@@ -1,0 +1,127 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+.main-container{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+    margin: 40px;
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.1);
+}
+/* Main content section */
+.main-content-section{
+    
+    width: 200%;
+    padding:100px 90px;
+}
+.first-company-section,
+.second-company-section,
+.third-company-section{
+    margin-bottom: 40px;
+}
+.work-responsibilities-item{
+    padding-left: 20px;
+}
+.my-project-list{
+    padding-left: 15px;
+    
+}
+.my-project-item{
+    color: black;
+    font-style: bold;
+}
+.my-project-item-text{
+    color: #595959;
+}
+.my-project-item-link{
+    color: #595959;
+}
+.my-project-bracket{
+    color: black; 
+    font-style: bold;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 141%;
+}
+.my-project-list li{
+    padding-left: 10px;
+}
+.work-expirience-devider{
+    color: black;
+}
+.about-me-section p{
+    width: 400px;
+}
+.h3-title-sidebar,
+.h3-education-section,
+.h3-work-expirience,
+.h3-about-me-section{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.h4-work-expirience,
+.h4-education-section{
+    font-size: 22px;
+    font-weight: 700; 
+}
+.p-work-period{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+img{
+    width: 100%;
+    margin-top: 40px;
+    
+}
+li{
+    color: #595959;
+    font-size: 14px;
+}
+/* Sidebar section */
+.sidebar-section{
+    background-color: #1E2939;
+    width: 770px;
+    color: #fff;
+}
+
+.contacts-section,
+.tech-skills-section,
+.soft-skills-section{
+    margin-left: 40px;
+    margin-bottom: 45px;
+}
+.tech-skills-list,
+.soft-skills-list{
+    padding: 0 0 0 18px;
+}
+.soft-skills-item,
+.tech-skills-item{
+    color: orange;
+}
+.tech-skills-item-text,
+.soft-skills-item-text{
+    color: #fff;
+    font-style: normal ;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* Contacts section */
+.contacts-section-link{
+    color:  #8E949C;
+    font-size: 14px;
+    line-height: 24px;
+}
+.contacts-section-type{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 5px;
+}
+.profession-color{
+    color: orange;
+}
